@@ -1,0 +1,2 @@
+[python_web]
+localhost.localdomain ansible_user=vagrant

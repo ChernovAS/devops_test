@@ -1,0 +1,12 @@
+---
+# tasks file for role/nginx
+- name: "install nginx"
+  dnf:
+    name: "nginx"
+    state: "present"
+
+- name: "start nginx server"
+  systemd:
+     name: "nginx"
+     state: "started"
+     enabled: "yes"

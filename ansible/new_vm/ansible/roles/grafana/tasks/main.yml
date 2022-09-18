@@ -1,0 +1,17 @@
+---
+- name: Install grafana
+  dnf:
+    name: grafana
+    state: present
+ 
+- name: grafana service started
+  service:
+    name: grafana-server
+    enabled: true
+    state: started
+
+- name: check if Grafana is accessible
+  uri:
+    url: http://127.0.0.1:3000
+    method: GET
+    status_code: 200

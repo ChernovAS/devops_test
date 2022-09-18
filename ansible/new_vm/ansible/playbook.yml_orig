@@ -1,0 +1,7 @@
+- name: install applications
+  hosts: localhost
+  become: yes
+  roles:
+          #- "nginx"
+     - grafana
+     - prometheus

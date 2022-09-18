@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/vagrant/ansible/.ansible/tmp/ansible-local-10849keytmp28/tmpbfefb663'
+let g:netrw_dirhist_2='/vagrant/ansible/roles/grafana/tasks'
+let g:netrw_dirhist_3='/vagrant/ansible/.ansible/tmp/ansible-local-16875m_8w07xh/tmp_8a5ktn1'
